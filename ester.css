@@ -1,0 +1,74 @@
+body, table{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+body {
+    margin-bottom: 100px;
+    background-color: rgb(255, 245, 234);
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    
+}
+h2 {
+    
+    color: rgb(255, 200, 129);
+    text-align: center;
+}
+
+
+.texto1, .texto2, .texto3, .texto4 {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.fotomacaco img {
+    width: 500px;     
+    display: block;    
+    margin: 0 auto;    
+}
+.fotoele img {
+    width: 500px;      /* diminui o tamanho */
+    display: block;    /* permite centralizar */
+    margin: 0 auto;    /* centraliza horizontalmente */
+}
+.fotozebra img {
+    width: 500px;      /* diminui o tamanho */
+    display: block;    /* permite centralizar */
+    margin: 0 auto;    /* centraliza horizontalmente */
+}
+
+.pNegrito{
+    font-weight: bold;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black; /* Borda na tabela */
+    border-collapse: collapse; /* Faz as bordas ficarem unidas */
+    text-align: center;
+    justify-content: center;
+}
+
+td, th {
+    border: 2px solid black; /* Borda nas células */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center;
+    justify-content: center;
+}
+th {
+    color: red;
+    justify-content: center;
+}
+
+.listaele.ul{
+    list-style-type: disc;
+}
+.final {
+    text-align: center;
+}
